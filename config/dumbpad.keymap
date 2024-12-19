@@ -52,7 +52,7 @@
             bindings = <
                       &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MINUS
                       &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS
-                      &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_MULTIPLY
+            &kp C_PP  &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_MULTIPLY
             &kp C_PP  &td        &kp KP_N0  &kp KP_DOT  &td_divide_eq
             >;
 
@@ -61,10 +61,10 @@
 
         layer_1 {
             bindings = <
-                    &bootloader  &trans      &trans      &kp BACKSPACE
-                    &bt BT_CLR   &bt BT_PRV  &bt BT_NXT  &trans
-                    &trans       &trans      &trans      &trans
-            &trans  &to 0        &trans      &trans      &trans
+                     &bootloader  &trans      &trans      &kp BACKSPACE
+                     &bt BT_CLR   &bt BT_PRV  &bt BT_NXT  &trans
+            &kp C_PP &trans       &trans      &trans      &trans
+            &trans   &to 0        &trans      &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
