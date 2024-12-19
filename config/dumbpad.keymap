@@ -63,7 +63,7 @@
             bindings = <
                      &bootloader  &trans      &trans      &kp BACKSPACE
                      &bt BT_CLR   &bt BT_PRV  &bt BT_NXT  &trans
-            &kp C_PP &trans       &trans      &trans      &trans
+            &trans   &trans       &trans      &trans      &trans
             &trans   &to 0        &trans      &trans      &trans
             >;
 

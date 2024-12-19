@@ -71,6 +71,7 @@
 		b-gpios = <&xiao_d 1  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		resolution = <4>;
         steps = <80>;
+        status = "disabled";
 	};
 
 	right_encoder: encoder_right {
@@ -80,5 +81,6 @@
  		b-gpios = <&gpio0  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		resolution = <4>;
         steps = <80>;
+        status = "disabled";
 	};
 };

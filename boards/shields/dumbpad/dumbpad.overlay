@@ -5,3 +5,8 @@
  */
 
  #include "dumbpad.dtsi"
+
+&left_encoder {
+    status = "okay";
+};
+
